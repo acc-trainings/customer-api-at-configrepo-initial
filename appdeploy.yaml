@@ -28,7 +28,7 @@ spec:
         app: customer-service-node
     spec:
       containers:
-        - image: quay.io/necloudnativetraining/customer-service-kc:SNAP_1.0.3
+        - image: quay.io/necloudnativetraining/customer-service-kc:SNAP_1.0.7
           name: customer-service-node
           env:
           resources: {}
