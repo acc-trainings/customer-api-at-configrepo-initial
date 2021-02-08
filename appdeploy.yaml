@@ -28,7 +28,7 @@ spec:
         app: customer-api-at-initial-node
     spec:
       containers:
-        - image: quay.io/acctrainings/customer-api-at:SNAP_1.0.16.main
+        - image: quay.io/acctrainings/customer-api-at:SNAP_1.0.17.main
           name: customer-api-at-initial-node
           env:
           resources: {}
