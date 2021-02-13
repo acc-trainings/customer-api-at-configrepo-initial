@@ -49,7 +49,7 @@ spec:
     spec:
       containers:
       - name: acctrainings-initial-node
-        image: quay.io/acctrainings/customer-api:SNAP_1.0.2.main
+        image: quay.io/acctrainings/customer-api:SNAP_1.0.3.main
         imagePullPolicy: IfNotPresent
         envFrom:
           - configMapRef:
