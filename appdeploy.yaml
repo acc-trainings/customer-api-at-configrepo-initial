@@ -65,12 +65,9 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: customer-api-initial
-  labels:
-    app: customer-api-initial
 spec:
   to:
     kind: Service
-    name: customer-api-initial
 status:
   ingress:
   - conditions:
