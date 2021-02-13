@@ -65,6 +65,7 @@ apiVersion: v1
 kind: Route
 metadata:
   name: customer-api-initial
+  namespace: "customer-api-at-initial"
   labels:
     app: customer-api-initial
 spec:
