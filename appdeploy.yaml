@@ -50,7 +50,7 @@ apiVersion: v1
 kind: Route
 metadata:
   name: customer-api-initial
-  namespace: "customer-api-at-initial"
+  namespace: "customer-api-initial"
 spec:
   to:
     kind: Service
