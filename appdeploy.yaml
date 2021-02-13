@@ -66,6 +66,8 @@ kind: Route
 metadata:
   name: customer-api-initial
   namespace: "customer-api-initial"
+  labels:
+    app: customer-api-initial
 spec:
   to:
     kind: Service
