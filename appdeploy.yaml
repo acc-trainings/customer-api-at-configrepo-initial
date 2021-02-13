@@ -66,12 +66,11 @@ kind: Route
 metadata:
   name: customer-api-initial
   namespace: "customer-api-at-initial"
-  labels:
-    app: customer-api-initial
 spec:
   to:
     kind: Service
     name: customer-api-initial
+    weight: 100
 status:
   ingress:
   - conditions:
